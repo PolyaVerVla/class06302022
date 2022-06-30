@@ -1,0 +1,191 @@
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ pwd
+/c/Users/visot
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ ls
+ 04282022.docx
+ 04282022.dta
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{d8ab5830-9974-11eb-9d25-9509d31b34f4}.TM.blf
+ NTUSER.DAT{d8ab5830-9974-11eb-9d25-9509d31b34f4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d8ab5830-9974-11eb-9d25-9509d31b34f4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+'Time Doctor 2'/
+ Tracing/
+ Videos/
+ ado/
+ data_stat.csv
+ data_stat.dta
+ data_stat_1.csv
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pc-auth.cookie
+ pc-client.properties
+'~$282022.docx'
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd ls
+bash: cd: ls: No such file or directory
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd ls Desktop
+bash: cd: too many arguments
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ dc Desktop
+bash: dc: command not found
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd Documents
+
+visot@LAPTOP-8KODM991 MINGW64 ~/Documents
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+visot@LAPTOP-8KODM991 MINGW64 ~/Documents
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+visot@LAPTOP-8KODM991 MINGW64 ~/Documents
+$  ls
+'My Music'@  'My Pictures'@  'My Videos'@
+
+visot@LAPTOP-8KODM991 MINGW64 ~/Documents
+$ cd ..
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd IntroToWebDev-main
+bash: cd: IntroToWebDev-main: No such file or directory
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ mkdir class_example
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ ls
+ 04282022.docx
+ 04282022.dta
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{d8ab5830-9974-11eb-9d25-9509d31b34f4}.TM.blf
+ NTUSER.DAT{d8ab5830-9974-11eb-9d25-9509d31b34f4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d8ab5830-9974-11eb-9d25-9509d31b34f4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+'Time Doctor 2'/
+ Tracing/
+ Videos/
+ ado/
+ class_example/
+ data_stat.csv
+ data_stat.dta
+ data_stat_1.csv
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pc-auth.cookie
+ pc-client.properties
+'~$282022.docx'
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ open
+bash: open: command not found
+
+visot@LAPTOP-8KODM991 MINGW64 ~
+$ cd class_example
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example
+$ git clone https://github.com/Willjfield/IntroToWebDev.git
+Cloning into 'IntroToWebDev'...
+remote: Enumerating objects: 71, done.
+remote: Counting objects: 100% (71/71), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 71 (delta 22), reused 64 (delta 15), pack-reused 0Receiving object
+s:  36% (26/71), 1.98 MiB | 1.96 MiB/s
+Receiving objects: 100% (71/71), 2.70 MiB | 1.93 MiB/s, done.
+Resolving deltas: 100% (22/22), done.
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example
+$ get add -A
+bash: get: command not found
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example
+$ git add -A
+fatal: not a git repository (or any of the parent directories): .git
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example
+$ git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example
+$ ls
+IntroToWebDev/
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example
+$ cd IntroToWebDev/
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example/IntroToWebDev (main)
+$ git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 2), reused 4 (delta 2), pack-reused 0
+Unpacking objects: 100% (4/4), 354 bytes | 7.00 KiB/s, done.
+From https://github.com/Willjfield/IntroToWebDev
+   063baa6..b6ec3fe  main       -> origin/main
+Updating 063baa6..b6ec3fe
+Fast-forward
+ 0630/Readme.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+visot@LAPTOP-8KODM991 MINGW64 ~/class_example/IntroToWebDev (main)
+$
